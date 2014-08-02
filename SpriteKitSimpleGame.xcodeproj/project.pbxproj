@@ -14,6 +14,8 @@
 		CEC664A5198C472000DDD269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC664A3198C472000DDD269 /* Main.storyboard */; };
 		CEC664A7198C472000DDD269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC664A6198C472000DDD269 /* Images.xcassets */; };
 		CEC664B3198C472000DDD269 /* SpriteKitSimpleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC664B2198C472000DDD269 /* SpriteKitSimpleGameTests.swift */; };
+		CEC664C1198C488E00DDD269 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEC664BE198C488E00DDD269 /* background-music-aac.caf */; };
+		CEC664C2198C488E00DDD269 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEC664BF198C488E00DDD269 /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CEC664AC198C472000DDD269 /* SpriteKitSimpleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSimpleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC664B1198C472000DDD269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC664B2198C472000DDD269 /* SpriteKitSimpleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSimpleGameTests.swift; sourceTree = "<group>"; };
+		CEC664BE198C488E00DDD269 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		CEC664BF198C488E00DDD269 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				CEC664A1198C472000DDD269 /* GameViewController.swift */,
 				CEC664A3198C472000DDD269 /* Main.storyboard */,
 				CEC664A6198C472000DDD269 /* Images.xcassets */,
+				CEC664BC198C488E00DDD269 /* SpriteKitSimpleGameResources */,
 				CEC66499198C472000DDD269 /* Supporting Files */,
 			);
 			path = SpriteKitSimpleGame;
@@ -113,6 +118,23 @@
 				CEC664B1198C472000DDD269 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC664BC198C488E00DDD269 /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				CEC664BD198C488E00DDD269 /* Sounds */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		CEC664BD198C488E00DDD269 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CEC664BE198C488E00DDD269 /* background-music-aac.caf */,
+				CEC664BF198C488E00DDD269 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC664C1198C488E00DDD269 /* background-music-aac.caf in Resources */,
 				CEC664A7198C472000DDD269 /* Images.xcassets in Resources */,
 				CEC6649E198C472000DDD269 /* GameScene.sks in Resources */,
+				CEC664C2198C488E00DDD269 /* pew-pew-lei.caf in Resources */,
 				CEC664A5198C472000DDD269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

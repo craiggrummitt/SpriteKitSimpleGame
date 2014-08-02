@@ -44,7 +44,9 @@ class GameViewController: UIViewController {
             skView.presentScene(scene)
         }
     }
-
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+    }
     override func shouldAutorotate() -> Bool {
         return true
     }
